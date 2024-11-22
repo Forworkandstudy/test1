@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 5px 50px 5px;
+}
+.header h1{
+   font-family: BRUSH SCRIPT MT;
+    font-size: 46px;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #00BCD4;
+}
+
+.slogan {
+    background-image: linear-gradient(rgba(84, 84, 84, 0.4), rgba(84, 84, 84, 0.2)), url('https://i.vuzopedia.ru/storage/app/uploads/public/631/e33/98d/631e3398d24b3683326688.jpg') ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 250px 0;
+    font-size: 46px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 100px 0;
+    font-family: Open Sans;
+    font-size: 24px;
+}
+
+.stat {
+    text-align: center;
+    border-right: 3px solid blue;
+    padding: 0 100px;
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.stat h2 {
+    color: blue;
+    margin-top: 0;
+}
+
+.gif-block {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+hr {
+    width: 80%; /* Длина линии */
+    margin: 0 auto; /* Центрирование по горизонтали */
+  border: 1.5px solid #2b47d9; /* Толщина и цвет линии */
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ECEFF1;
+    padding: 50px 0;
+}
+
+.service {
+    width: 45%;
+    background-color: #00BCD4;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.service h2{
+  color: #120355;
+}
+ .projects-container {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 1300px;
+    width: 100%;
+}
+.project-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.project-header h2 {
+    font-size: 28px;
+    color: #333;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 50px;
+}
+.project-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.project-card:hover {
+    transform: scale(1.02);
+}
+.project-image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.project h2{
+  color: #120355;
+}
+.project-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.project-description {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.technologies {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+}
+.contact-wrapper {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 200%;
+    display: flex;
+}
+.contact-info {
+    background-color: #00BCD4;
+    color: #fff;
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.contact-details {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.contact-building {
+    width: 50%;
+    background: url('https://a.travelcdn.mts.ru/property-photos/1633728227/2347900126/50ebf41a69b30cbc1e5ddd9979ac0c9d30c0ee5c.jpeg?width=1024&fit=bounds&quality=75') no-repeat center center/cover;
+}
+.footer{
+background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
